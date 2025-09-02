@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaShoppingCart, FaVideo, FaTasks, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaInstagram, FaShoppingCart, FaSearch, FaTasks, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
 
@@ -27,13 +27,13 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Video Conferencing App",
-      description: "Zoom-like video calling application with screen sharing and chat functionality.",
-      icon: <FaVideo className="text-xl" />,
+      title: "Visio Draft",
+      description: "Simplifying projects, notes, and ideas for college students.",
+      icon: <FaSearch className="text-xl" />,
       bgColor: "bg-[#FDE4F9]",
       borderColor: "border-[#1D1D1D]",
-      github: "https://github.com/yourname/video-app",
-      live: "",
+      github: "https://github.com/abhishek4524/VisioDraft",
+      live: "https://visio-draft.vercel.app/",
     },
     {
       id: 4,
